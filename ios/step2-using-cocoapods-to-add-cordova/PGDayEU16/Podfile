@@ -1,0 +1,18 @@
+platform :ios, '8.0'
+
+pod 'Cordova'
+
+pod 'cordova-plugin-console'
+pod 'cordova-plugin-device'
+
+target 'PGDayEU16' do
+
+end
+
+target 'PGDayEU16Tests' do
+
+end
+
+target 'PGDayEU16UITests' do
+
+end
