@@ -8,6 +8,9 @@ Pre-requisites:
 Cordova iOS
 -----------
 
-Pre-requisites
-* XCode
-* CocoaPods
+Pre-requisites:
+
+- XCode
+- CocoaPods
+
+Further instructions are [in the iOS folder](ios/README.md). Happy coding!

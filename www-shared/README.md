@@ -1,0 +1,1 @@
+This is the platform-agnostic www folder - the contents of this folder can be copied to the native project's www folders.
