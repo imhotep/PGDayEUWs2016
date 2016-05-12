@@ -29,7 +29,7 @@ end
 ```
 
 - Go back to your Terminal and run `pod install`
-- __IMPORANT__: Once the dust settles open the `*.xcworkspace` file, not the `*.xcodeproj` file
+- __IMPORTANT__: Once the dust settles open the `*.xcworkspace` file, not the `*.xcodeproj` file
 - You should still be able to run the app on your phone - if not make sure your project structure in Xcode looks like this:
 
 ![ScreenShot](project-structure.png)

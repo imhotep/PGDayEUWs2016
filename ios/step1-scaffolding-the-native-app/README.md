@@ -9,4 +9,4 @@ Scaffolding the Native app
 
 You can now run the app on your phone and you should see this screen:
 
-![ScreenShot](result.png)
+![ScreenShot](screenshot.png)
