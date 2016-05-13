@@ -10,10 +10,15 @@ Using CocoaPods to add Cordova
 ```
 platform :ios, '8.0'
 
+# The latest published version of the Cordova-iOS library
 pod 'Cordova'
 
+# Any core Cordova plugins we need
 pod 'cordova-plugin-console'
 pod 'cordova-plugin-device'
+
+# A handy starter template we'll add our own www bits to
+pod 'phonegap-ios-template'
 
 target 'PGDayEU16' do
 
@@ -32,4 +37,4 @@ end
 - __IMPORTANT__: Once the dust settles open the `*.xcworkspace` file, not the `*.xcodeproj` file
 - You should still be able to run the app on your phone - if not make sure your project structure in Xcode looks like this:
 
-![ScreenShot](project-structure.png)
+![ScreenShot](xcode-project-structure)

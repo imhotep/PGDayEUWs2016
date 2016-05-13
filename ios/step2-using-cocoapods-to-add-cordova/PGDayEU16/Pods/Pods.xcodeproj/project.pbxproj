@@ -13,46 +13,46 @@
 		<key>0037D96DE3AB89E4699C9900684A376D</key>
 		<dict>
 			<key>fileRef</key>
-			<string>85FFD4FEA1B4695F22C44C4679FE6CB5</string>
+			<string>E322A88F57816DB48956747669A55255</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>005A8BD3355753508E6585875458296B</key>
+		<key>008F72FA5F77B6D9ACE8054978F17A52</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>CDVUIWebViewNavigationDelegate.m</string>
+			<string>CDVCommandDelegateImpl.h</string>
 			<key>path</key>
-			<string>CordovaLib/Classes/Private/Plugins/CDVUIWebViewEngine/CDVUIWebViewNavigationDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>00A06C34CC5B09A98C691A9D49AE4BD3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>CDVWhitelist.m</string>
-			<key>path</key>
-			<string>CordovaLib/Classes/Public/CDVWhitelist.m</string>
+			<string>CordovaLib/Classes/Public/CDVCommandDelegateImpl.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>01A034CC960964499DD65387FDE8040D</key>
 		<dict>
 			<key>fileRef</key>
-			<string>49B7CB94A9394A7BF6ED36843F3A12C9</string>
+			<string>0209394AC596458B901AAFA77E5E6F4B</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>0209394AC596458B901AAFA77E5E6F4B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>CDVDevice.m</string>
+			<key>path</key>
+			<string>src/ios/CDVDevice.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>02B2401809E487660F4F960AD5B92167</key>
 		<dict>
@@ -78,6 +78,66 @@
 			<string>C30A2FE4E19459D24A2DCAC12AA80B54</string>
 			<key>targetProxy</key>
 			<string>E1A33084BD35B76A1A93628A902C7306</string>
+		</dict>
+		<key>041C7ADDAFD6164D42B25DFC8579318D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CDVViewController.h</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>05EB5C6247D3A0DAA74037BF0B086AFE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>cordova-plugin-console-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>06C31408AB252B7398ABACF611B90247</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CDVPluginResult.h</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVPluginResult.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>06D95349E3A9081EA433C4CD93E2A719</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>4BC7700EDC3B531FBD94DC4D7677F9E6</string>
+				<string>0209394AC596458B901AAFA77E5E6F4B</string>
+				<string>14856A818F38F3819A080BCAF0FB10EC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>cordova-plugin-device</string>
+			<key>path</key>
+			<string>cordova-plugin-device</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>079CB1EBA0B355C58865A462B9BDE27E</key>
 		<dict>
@@ -124,7 +184,7 @@
 		<key>0A5FEC6A8ED615F134645FC73CA2AB19</key>
 		<dict>
 			<key>fileRef</key>
-			<string>49332E6CACFE9788EF68C68AEA8E8B51</string>
+			<string>3067D8170738E348ECA7A439402F8675</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -151,7 +211,7 @@
 		<key>0C70C3E19FC0F3F73C31A34F176318A6</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>A059A80345AC7E802B1D6FE49CAB4201</string>
+			<string>C8FE492873F3CE981AB64AB9D8C6320A</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
@@ -182,6 +242,36 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
+		<key>0C87BAE7CC7F7B703528C47D948F1AA5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CDVDebug.h</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Private/CDVDebug.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0CFB810604FB9D34B47E0438277529A3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>CDVUIWebViewEngine.m</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Private/Plugins/CDVUIWebViewEngine/CDVUIWebViewEngine.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>0D95B17DBAA14D41CBB5F7164C83939F</key>
 		<dict>
 			<key>containerPortal</key>
@@ -198,7 +288,7 @@
 		<key>0DFDC2C967F573E1BC319B5EB445BC85</key>
 		<dict>
 			<key>fileRef</key>
-			<string>120432F83B5D6B293D440F83191EB423</string>
+			<string>0C87BAE7CC7F7B703528C47D948F1AA5</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -223,14 +313,14 @@
 		<key>0E719974662F473111ED76BFD5E87691</key>
 		<dict>
 			<key>fileRef</key>
-			<string>95828933D23F6235221EBE98665D55F6</string>
+			<string>805201CD75053291AA62DBE128FE3B1A</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>0F2FC1BC12C28B3EEEDBC0C4B0F8AF9A</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>A059A80345AC7E802B1D6FE49CAB4201</string>
+			<string>C8FE492873F3CE981AB64AB9D8C6320A</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
@@ -264,7 +354,7 @@
 		<key>0F531E2209F11EDF3FFDB4BA157F1DEC</key>
 		<dict>
 			<key>fileRef</key>
-			<string>9207FE13DFD7820652BC359326F492E2</string>
+			<string>3DE31901C231AC5250024CE624D06427</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -284,25 +374,10 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>1076B686D2A7574DBD215A878303568A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>CDVJSON_private.m</string>
-			<key>path</key>
-			<string>CordovaLib/Classes/Private/CDVJSON_private.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>1180A7B9E32C4B935C4DB3EF02347DF8</key>
 		<dict>
 			<key>fileRef</key>
-			<string>53E7168A2050EB67EB5E04C671C53B8D</string>
+			<string>DE49A523BA7F44DEF4FC548748F8F74C</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -313,40 +388,40 @@
 				</array>
 			</dict>
 		</dict>
-		<key>120432F83B5D6B293D440F83191EB423</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CDVDebug.h</string>
-			<key>path</key>
-			<string>CordovaLib/Classes/Private/CDVDebug.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>1214815B3BE5EB68789615DA37428A3A</key>
 		<dict>
 			<key>fileRef</key>
-			<string>AFC62D9FEB8E70C51E7A67B7CACC9B04</string>
+			<string>DAACF945B3058F14FDCAEE98A12542F6</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>15F8F3FDE597C1C91C5825865C23BCAA</key>
+		<key>128185B805857ED312AECD515511C4C8</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CDVPluginResult.h</string>
+			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>CordovaLib/Classes/Public/CDVPluginResult.h</string>
+			<string>Cordova.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>14856A818F38F3819A080BCAF0FB10EC</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>5F4CC050AFB9CD7B86376098B7C0E234</string>
+				<string>8EB0E37A4F6D05CA85D6B1F9BDA0B67A</string>
+				<string>51014ACD87966FA10907EF74E4B1ECD7</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/cordova-plugin-device</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -414,40 +489,10 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>183598E0263231DFB3EE631D8CD02D67</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CDVWhitelist.h</string>
-			<key>path</key>
-			<string>CordovaLib/Classes/Public/CDVWhitelist.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1B4C23ED1A14B9FFFC37893CC5F752BF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CDVUIWebViewEngine.h</string>
-			<key>path</key>
-			<string>CordovaLib/Classes/Private/Plugins/CDVUIWebViewEngine/CDVUIWebViewEngine.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>1C715AB89C47FABB359B03894DE2D714</key>
 		<dict>
 			<key>fileRef</key>
-			<string>1B4C23ED1A14B9FFFC37893CC5F752BF</string>
+			<string>573A314362346D9683EE0F4626345965</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -472,51 +517,6 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>1CC3D4354515C1EEA85CE9FEBC827089</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CDVAppDelegate.h</string>
-			<key>path</key>
-			<string>CordovaLib/Classes/Public/CDVAppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1DD1B57F1DE5B5436AE8F6404A7C758D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CDVDevice.h</string>
-			<key>path</key>
-			<string>src/ios/CDVDevice.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1EF80F36CD8A1793EE685BF8C26E9B01</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CDVCommandDelegate.h</string>
-			<key>path</key>
-			<string>CordovaLib/Classes/Public/CDVCommandDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>20B56609144CE204DFA8221F742B2D76</key>
 		<dict>
 			<key>children</key>
@@ -533,16 +533,31 @@
 		<key>20EBF3722413D8D87B08362D511117F0</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C01CCF9F6C59CC2F597677D7B004B004</string>
+			<string>7342F3AF89159D843F80CB83BC6AFFFF</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>21575C2F75C4319DE2B2271F24B7245A</key>
 		<dict>
 			<key>fileRef</key>
-			<string>1076B686D2A7574DBD215A878303568A</string>
+			<string>A8B24B83388002F6D261D736810661C9</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>21B1B752C4468AA82CD021D7B6389795</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CDVConfigParser.h</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVConfigParser.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>22923B3F1F07CC65B22F7A834D99DB1C</key>
 		<dict>
@@ -646,37 +661,7 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>29183F361C1D0C2353FBA6A64751C316</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CDVIntentAndNavigationFilter.h</string>
-			<key>path</key>
-			<string>CordovaLib/Classes/Private/Plugins/CDVIntentAndNavigationFilter/CDVIntentAndNavigationFilter.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2AF57B02F973D111B7D0D35A6019F3AE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NSDictionary+CordovaPreferences.h</string>
-			<key>path</key>
-			<string>CordovaLib/Classes/Public/NSDictionary+CordovaPreferences.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D2BFC8B8CA4B16F331DCB170FDA5E00</key>
+		<key>273202EBFA10FCFFF6CBE518BBF80801</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -684,8 +669,40 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>CDVURLProtocol.m</string>
 			<key>path</key>
-			<string>cordova-plugin-console-dummy.m</string>
+			<string>CordovaLib/Classes/Public/CDVURLProtocol.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>283B2D362065BCD61348E529A781AE80</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>CDVTimer.m</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVTimer.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2B56BE91BD88CB96D7BFFEDF3F2281AD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>CDVCommandQueue.m</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVCommandQueue.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -742,7 +759,7 @@
 			<key>remoteInfo</key>
 			<string>Cordova</string>
 		</dict>
-		<key>30983330AA74D3693CCA404274F43289</key>
+		<key>3067D8170738E348ECA7A439402F8675</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -751,16 +768,16 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>CDVLocalStorage.h</string>
+			<string>CDVUIWebViewNavigationDelegate.h</string>
 			<key>path</key>
-			<string>CordovaLib/Classes/Private/Plugins/CDVLocalStorage/CDVLocalStorage.h</string>
+			<string>CordovaLib/Classes/Private/Plugins/CDVUIWebViewEngine/CDVUIWebViewNavigationDelegate.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>31CE3B2A6E707BB310048BAD79323737</key>
 		<dict>
 			<key>fileRef</key>
-			<string>9B123E0577B2A59789DF6C2F77BA07C1</string>
+			<string>407C8A77DCF27AE631285AFF3631844F</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -774,7 +791,7 @@
 		<key>31DE57595949663EFCDF4BDC21406D2D</key>
 		<dict>
 			<key>fileRef</key>
-			<string>1DD1B57F1DE5B5436AE8F6404A7C758D</string>
+			<string>4BC7700EDC3B531FBD94DC4D7677F9E6</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -784,6 +801,19 @@
 					<string>Public</string>
 				</array>
 			</dict>
+		</dict>
+		<key>33391F20EF3AF14AAC25E4AC96A504CF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>www</string>
+			<key>path</key>
+			<string>resources/www</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>334EAE221A6303EE55AA604EBEE6C1BA</key>
 		<dict>
@@ -881,25 +911,10 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>39AB2546F542CF8F7074C5B44FFD8F6F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CDVPlugin+Private.h</string>
-			<key>path</key>
-			<string>CordovaLib/Classes/Private/CDVPlugin+Private.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>39E582AF5D19EF32F012C92DB6323CE6</key>
 		<dict>
 			<key>fileRef</key>
-			<string>A49A50706A2D9605B898804548CCCBAC</string>
+			<string>E5FAF915416DC5CC5EBD9250EE449580</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -913,7 +928,7 @@
 		<key>3ACA1C41736103EC189EA5EE76E419C1</key>
 		<dict>
 			<key>fileRef</key>
-			<string>AA122030D66E89EF736A15043D8A46CF</string>
+			<string>B90E9ED1F71195685C40AF4690649156</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -935,12 +950,87 @@
 			<key>targetProxy</key>
 			<string>B89CCBF6B04ED2CFF693FF58CD193501</string>
 		</dict>
+		<key>3DE31901C231AC5250024CE624D06427</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>CDVLocalStorage.m</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Private/Plugins/CDVLocalStorage/CDVLocalStorage.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3DEC29FF2304E43DE2D963FBDED284E5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>CDVIntentAndNavigationFilter.m</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Private/Plugins/CDVIntentAndNavigationFilter/CDVIntentAndNavigationFilter.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3ED2AB1E52278BD8D685DB0D52E86D2E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>CDVPlugin+Resources.m</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVPlugin+Resources.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>3FDFB8C3F08C1110418B199BFCC0AA54</key>
 		<dict>
 			<key>fileRef</key>
 			<string>8F6A2F13DAD27A7FBCC7180A935F6BEE</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>407C8A77DCF27AE631285AFF3631844F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CDVInvokedUrlCommand.h</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVInvokedUrlCommand.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>41190A87AF3053E7577EE428A5D1E509</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>CDVPlugin.m</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVPlugin.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>42BE85D50FCF0295F2987A7D5C72CCD1</key>
 		<dict>
@@ -966,38 +1056,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>42F423E3ECBEC2328515F3A7B08C4123</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>A059A80345AC7E802B1D6FE49CAB4201</string>
-				<string>2D2BFC8B8CA4B16F331DCB170FDA5E00</string>
-				<string>738F8617EBA6029C2858F21E9CAB3874</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/cordova-plugin-console</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>43D393BB8939F785717DA74B8A127891</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>CDVURLProtocol.m</string>
-			<key>path</key>
-			<string>CordovaLib/Classes/Public/CDVURLProtocol.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>45346BAE877E35F2BEDACBB5AD80EE55</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1008,6 +1066,21 @@
 			<string>text.xcconfig</string>
 			<key>path</key>
 			<string>Pods-PGDayEU16UITests.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>459BBBA48E46A0B456A4D686FE9CF6A9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>NSDictionary+CordovaPreferences.m</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/NSDictionary+CordovaPreferences.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1046,7 +1119,7 @@
 		<key>45CD8B73239D298491885B050D1CF704</key>
 		<dict>
 			<key>fileRef</key>
-			<string>6838256D1F27DD62F6A31DB0DF1A6A75</string>
+			<string>2B56BE91BD88CB96D7BFFEDF3F2281AD</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -1098,26 +1171,11 @@
 		<key>48DB104B7F61AE5FB9576A2827C0E753</key>
 		<dict>
 			<key>fileRef</key>
-			<string>91C0FCC75D357460E7123DD0B6E2E103</string>
+			<string>C5E02AB086722DB3C2D8D8E1065B8B49</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>49332E6CACFE9788EF68C68AEA8E8B51</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CDVUIWebViewNavigationDelegate.h</string>
-			<key>path</key>
-			<string>CordovaLib/Classes/Private/Plugins/CDVUIWebViewEngine/CDVUIWebViewNavigationDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>49B1DADA154F9A3C295ABF957948E2A1</key>
+		<key>494D8A148131D7176D00157B04D0228A</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1129,21 +1187,6 @@
 			<string>CDVAppDelegate.m</string>
 			<key>path</key>
 			<string>CordovaLib/Classes/Public/CDVAppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>49B7CB94A9394A7BF6ED36843F3A12C9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>CDVDevice.m</string>
-			<key>path</key>
-			<string>src/ios/CDVDevice.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1160,17 +1203,32 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
+		<key>4BC7700EDC3B531FBD94DC4D7677F9E6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CDVDevice.h</string>
+			<key>path</key>
+			<string>src/ios/CDVDevice.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>4BE12A5153927601314BDD754479CE47</key>
 		<dict>
 			<key>fileRef</key>
-			<string>515615DFE24934B868D0983ECAED3A8D</string>
+			<string>3ED2AB1E52278BD8D685DB0D52E86D2E</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>4D37A63C56B54930128A551E8A7312AE</key>
 		<dict>
 			<key>fileRef</key>
-			<string>49B1DADA154F9A3C295ABF957948E2A1</string>
+			<string>494D8A148131D7176D00157B04D0228A</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -1203,7 +1261,7 @@
 		<key>50616E1FECCB1A09731F95CF4297FF8F</key>
 		<dict>
 			<key>fileRef</key>
-			<string>DEF29EC5D56CD49ED3968F776B6D9440</string>
+			<string>8ABCBEDF3B3C7B395A1712B422A997E7</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1214,18 +1272,31 @@
 				</array>
 			</dict>
 		</dict>
-		<key>515615DFE24934B868D0983ECAED3A8D</key>
+		<key>51014ACD87966FA10907EF74E4B1ECD7</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>CDVPlugin+Resources.m</string>
+			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>CordovaLib/Classes/Public/CDVPlugin+Resources.m</string>
+			<string>cordova-plugin-device-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>51087615447242D0D23CC949E902000D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>NSDictionary+CordovaPreferences.h</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/NSDictionary+CordovaPreferences.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1245,7 +1316,7 @@
 		<key>5201A55D2442F264A1CE2F931C36C483</key>
 		<dict>
 			<key>fileRef</key>
-			<string>30983330AA74D3693CCA404274F43289</string>
+			<string>75213BCD335EFFCB692CCB79AE2AA836</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1259,7 +1330,7 @@
 		<key>530E13E4A6D29F3563E0D8411E9D25BF</key>
 		<dict>
 			<key>fileRef</key>
-			<string>79E49100FC3CAD312B360AB9243D9191</string>
+			<string>C4242440A700CFC478DFE6F46E26DAE8</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1273,7 +1344,7 @@
 		<key>53CF6E161C69DAA591C76957A5865B6A</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>F395EDA54A19AFB45313B4DE58919B1C</string>
+			<string>128185B805857ED312AECD515511C4C8</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
@@ -1304,21 +1375,6 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>53E7168A2050EB67EB5E04C671C53B8D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CDVUIWebViewDelegate.h</string>
-			<key>path</key>
-			<string>CordovaLib/Classes/Private/Plugins/CDVUIWebViewEngine/CDVUIWebViewDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>54E3912BAED6A124E672A27E92FEAE55</key>
 		<dict>
 			<key>isa</key>
@@ -1330,7 +1386,24 @@
 			<key>targetProxy</key>
 			<string>17B862524FCBF06FE9142A2002674EAE</string>
 		</dict>
-		<key>55B3F46C69F16E0A90D858EB30B0E714</key>
+		<key>5521503466933AFA8E3E1E95F3EABB75</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>E5FAF915416DC5CC5EBD9250EE449580</string>
+				<string>8ABC650537B1CB4AEAC8EF109123F3BB</string>
+				<string>AD6BBCB98C6B6414DC2D7AE97D263BBB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>cordova-plugin-console</string>
+			<key>path</key>
+			<string>cordova-plugin-console</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>55CF61B31F7187D7D33060EC30ABE6B7</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1339,16 +1412,16 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>CDVInvokedUrlCommand.m</string>
+			<string>CDVHandleOpenURL.m</string>
 			<key>path</key>
-			<string>CordovaLib/Classes/Public/CDVInvokedUrlCommand.m</string>
+			<string>CordovaLib/Classes/Private/Plugins/CDVHandleOpenURL/CDVHandleOpenURL.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>5605F7E21A5130F983C2BD92742A6298</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>8978D668C8FB4E51DCD04A19C68E8315</string>
+			<string>5F4CC050AFB9CD7B86376098B7C0E234</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
@@ -1382,7 +1455,7 @@
 		<key>566869411BEF60BED3BF55921CBFFC78</key>
 		<dict>
 			<key>fileRef</key>
-			<string>AE9A4D21FCBB2AA33D80E6A20BE64095</string>
+			<string>F4D61576856E48F66ED9F751A6F2B4F3</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1393,7 +1466,76 @@
 				</array>
 			</dict>
 		</dict>
-		<key>5797CDE9FE76505251EA1AE0988F4EBD</key>
+		<key>56E4B15CBC46B08F56A8DA00C78E0979</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>C4242440A700CFC478DFE6F46E26DAE8</string>
+				<string>E4A9D4D3CAECAC63418A209319084137</string>
+				<string>494D8A148131D7176D00157B04D0228A</string>
+				<string>F4792F31F1999EF078E86D95CB8EF944</string>
+				<string>8ABCBEDF3B3C7B395A1712B422A997E7</string>
+				<string>7A39D73CD2A403D0E7C1CB85FE8417B0</string>
+				<string>008F72FA5F77B6D9ACE8054978F17A52</string>
+				<string>E322A88F57816DB48956747669A55255</string>
+				<string>F4D61576856E48F66ED9F751A6F2B4F3</string>
+				<string>2B56BE91BD88CB96D7BFFEDF3F2281AD</string>
+				<string>21B1B752C4468AA82CD021D7B6389795</string>
+				<string>DAACF945B3058F14FDCAEE98A12542F6</string>
+				<string>0C87BAE7CC7F7B703528C47D948F1AA5</string>
+				<string>DFF049FFEE7EE4EEB22006D2FD5373F3</string>
+				<string>81F35C01B31F71DB8FBD7A1DCAD7091F</string>
+				<string>93727429280933E46C8DFFC65807AF6C</string>
+				<string>55CF61B31F7187D7D33060EC30ABE6B7</string>
+				<string>91AA98EE9CA1BB84A1DE3282E2F6BB1C</string>
+				<string>3DEC29FF2304E43DE2D963FBDED284E5</string>
+				<string>407C8A77DCF27AE631285AFF3631844F</string>
+				<string>A28F59733EC4DD48E0C9334A88841632</string>
+				<string>C3A92C73BB7C6B4FD017D913ABBA8887</string>
+				<string>A8B24B83388002F6D261D736810661C9</string>
+				<string>75213BCD335EFFCB692CCB79AE2AA836</string>
+				<string>3DE31901C231AC5250024CE624D06427</string>
+				<string>B5C0F420F8E2835E2405FEDA6DF87939</string>
+				<string>41190A87AF3053E7577EE428A5D1E509</string>
+				<string>C949BCDF6E2AF5EF27DD2F5747EBF638</string>
+				<string>6919928CE41E961BABB0F5B1CE0DA27C</string>
+				<string>3ED2AB1E52278BD8D685DB0D52E86D2E</string>
+				<string>06C31408AB252B7398ABACF611B90247</string>
+				<string>A031414CFE661980877E16FFDABC7421</string>
+				<string>83C2EDC8B2D11D9C198B5C669C4D96F2</string>
+				<string>D2D0A5F4AB9ECA1E64B93A89D7F45BEC</string>
+				<string>283B2D362065BCD61348E529A781AE80</string>
+				<string>DE49A523BA7F44DEF4FC548748F8F74C</string>
+				<string>805201CD75053291AA62DBE128FE3B1A</string>
+				<string>573A314362346D9683EE0F4626345965</string>
+				<string>0CFB810604FB9D34B47E0438277529A3</string>
+				<string>3067D8170738E348ECA7A439402F8675</string>
+				<string>6C78CB3C3EE8442E5E65F55615D89229</string>
+				<string>92A81CB2398ED9190FAE6DD866F187E3</string>
+				<string>273202EBFA10FCFFF6CBE518BBF80801</string>
+				<string>EBA4AFB236BB76ACC2F19FF6A0ECBCEF</string>
+				<string>BCACAFBDF7A06AF92C5FAF0C3B94639D</string>
+				<string>041C7ADDAFD6164D42B25DFC8579318D</string>
+				<string>7342F3AF89159D843F80CB83BC6AFFFF</string>
+				<string>B64434614E459AE77B55A4D6B646A663</string>
+				<string>BEAE27147D9CB340196100E5C9B56054</string>
+				<string>B27C63D96F7422E6F6B594A99FFCE1FD</string>
+				<string>51087615447242D0D23CC949E902000D</string>
+				<string>459BBBA48E46A0B456A4D686FE9CF6A9</string>
+				<string>B90E9ED1F71195685C40AF4690649156</string>
+				<string>FD4EA9778C54E0B78AFFD8717BA3CA8A</string>
+				<string>E1BCF9DEB46CF9E77BD3A3323F7DD18F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Cordova</string>
+			<key>path</key>
+			<string>Cordova</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>573A314362346D9683EE0F4626345965</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1402,30 +1544,30 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>CDVURLProtocol.h</string>
+			<string>CDVUIWebViewEngine.h</string>
 			<key>path</key>
-			<string>CordovaLib/Classes/Public/CDVURLProtocol.h</string>
+			<string>CordovaLib/Classes/Private/Plugins/CDVUIWebViewEngine/CDVUIWebViewEngine.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>57C1929C394E96A0377B766B6CF10077</key>
 		<dict>
 			<key>fileRef</key>
-			<string>7B15727C9E26A5E546E6DE2F7AF88C0D</string>
+			<string>81F35C01B31F71DB8FBD7A1DCAD7091F</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>58E4647033D96FFE3FC36DEED22B5D8D</key>
 		<dict>
 			<key>fileRef</key>
-			<string>A51106E2C54664D724284E9FFD20EDE6</string>
+			<string>55CF61B31F7187D7D33060EC30ABE6B7</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>593C396D475BBF682AC1BBF9677A1058</key>
 		<dict>
 			<key>fileRef</key>
-			<string>DF4A99501474AEE3C98473056676F028</string>
+			<string>C3A92C73BB7C6B4FD017D913ABBA8887</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1439,14 +1581,14 @@
 		<key>5AAA43D4EB057967255F67DC240E8308</key>
 		<dict>
 			<key>fileRef</key>
-			<string>98C63CBC22F17A85C85C4AC6F0768534</string>
+			<string>BCACAFBDF7A06AF92C5FAF0C3B94639D</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>5CAF4436D38342AC027578791613CE63</key>
 		<dict>
 			<key>fileRef</key>
-			<string>6464871C1DD001D78F4E69C8C03F6534</string>
+			<string>A031414CFE661980877E16FFDABC7421</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -1467,6 +1609,19 @@
 			<string>78FF6A7C9C31B0A3CCF8806AEA5792E2</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>5F4CC050AFB9CD7B86376098B7C0E234</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>cordova-plugin-device.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>5FBEE2FD3F7B2F1DFE1143030074B059</key>
 		<dict>
@@ -1509,7 +1664,7 @@
 		<key>617FD77AC82E29A59157E646853D8824</key>
 		<dict>
 			<key>fileRef</key>
-			<string>B38D7A5793240C9F05C73B34539B9FA6</string>
+			<string>6919928CE41E961BABB0F5B1CE0DA27C</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1519,19 +1674,6 @@
 					<string>Public</string>
 				</array>
 			</dict>
-		</dict>
-		<key>61998C73E975ACA9F44B7E696B9C65DC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>cordova-plugin-device-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>6240F758385A2D5D9E10CC28A74FD138</key>
 		<dict>
@@ -1567,21 +1709,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>6464871C1DD001D78F4E69C8C03F6534</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>CDVPluginResult.m</string>
-			<key>path</key>
-			<string>CordovaLib/Classes/Public/CDVPluginResult.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>675B418B3488264CAE502B24C63F4AD3</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -1595,7 +1722,29 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>6838256D1F27DD62F6A31DB0DF1A6A75</key>
+		<key>6919928CE41E961BABB0F5B1CE0DA27C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CDVPlugin+Resources.h</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVPlugin+Resources.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6A4E0C007FBFCD6F2FCB848EB4C5D9EE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>459BBBA48E46A0B456A4D686FE9CF6A9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6C78CB3C3EE8442E5E65F55615D89229</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1604,18 +1753,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>CDVCommandQueue.m</string>
+			<string>CDVUIWebViewNavigationDelegate.m</string>
 			<key>path</key>
-			<string>CordovaLib/Classes/Public/CDVCommandQueue.m</string>
+			<string>CordovaLib/Classes/Private/Plugins/CDVUIWebViewEngine/CDVUIWebViewNavigationDelegate.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6A4E0C007FBFCD6F2FCB848EB4C5D9EE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A176423C9A24C883DDA92F5473DF3DB3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>6DBBA4F7D2DEDE6B7AA8FFB76E162AC6</key>
 		<dict>
@@ -1684,21 +1826,6 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>714FAFC54B7922F4F394E2CAA1D67C61</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CDVTimer.h</string>
-			<key>path</key>
-			<string>CordovaLib/Classes/Public/CDVTimer.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>726926CE5475BE11D945BB6352D295A4</key>
 		<dict>
 			<key>children</key>
@@ -1715,6 +1842,21 @@
 			<string>PBXGroup</string>
 			<key>name</key>
 			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7342F3AF89159D843F80CB83BC6AFFFF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>CDVViewController.m</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVViewController.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1761,19 +1903,6 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>738F8617EBA6029C2858F21E9CAB3874</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>cordova-plugin-console-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>746B52D8BDA01513B302C6B3BE69B9A5</key>
 		<dict>
 			<key>explicitFileType</key>
@@ -1789,10 +1918,25 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
+		<key>75213BCD335EFFCB692CCB79AE2AA836</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CDVLocalStorage.h</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Private/Plugins/CDVLocalStorage/CDVLocalStorage.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>76C4FAA8FE060BCEAC6EC253AAF46936</key>
 		<dict>
 			<key>fileRef</key>
-			<string>2AF57B02F973D111B7D0D35A6019F3AE</string>
+			<string>51087615447242D0D23CC949E902000D</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1806,7 +1950,7 @@
 		<key>76F4A7524CCC7087B9E69AFD0B72EAFA</key>
 		<dict>
 			<key>fileRef</key>
-			<string>714FAFC54B7922F4F394E2CAA1D67C61</string>
+			<string>D2D0A5F4AB9ECA1E64B93A89D7F45BEC</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1817,44 +1961,12 @@
 				</array>
 			</dict>
 		</dict>
-		<key>77464FCBC7B6F844CF2980036018F660</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>CDVLogger.m</string>
-			<key>path</key>
-			<string>src/ios/CDVLogger.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>779761C3DBA8338EF0C87F5836EFE776</key>
 		<dict>
 			<key>fileRef</key>
 			<string>EB0F6BF4EBBDB6B11ED75F5FCFDB7FAA</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>77E2B809524F223DB38A93693D75D642</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>A49A50706A2D9605B898804548CCCBAC</string>
-				<string>77464FCBC7B6F844CF2980036018F660</string>
-				<string>42F423E3ECBEC2328515F3A7B08C4123</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>cordova-plugin-console</string>
-			<key>path</key>
-			<string>cordova-plugin-console</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>78293452357A2C1B07D4AF6BAF5A2FC7</key>
 		<dict>
@@ -1876,19 +1988,6 @@
 			<key>remoteInfo</key>
 			<string>cordova-plugin-device</string>
 		</dict>
-		<key>78FBF80482E82B9CF462A12BE5558B40</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>cordova-plugin-device-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>78FF6A7C9C31B0A3CCF8806AEA5792E2</key>
 		<dict>
 			<key>isa</key>
@@ -1902,7 +2001,7 @@
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>79E49100FC3CAD312B360AB9243D9191</key>
+		<key>7A39D73CD2A403D0E7C1CB85FE8417B0</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1911,24 +2010,9 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>CDV.h</string>
+			<string>CDVCommandDelegate.h</string>
 			<key>path</key>
-			<string>CordovaLib/Classes/Public/CDV.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7B15727C9E26A5E546E6DE2F7AF88C0D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>CDVGestureHandler.m</string>
-			<key>path</key>
-			<string>CordovaLib/Classes/Private/Plugins/CDVGestureHandler/CDVGestureHandler.m</string>
+			<string>CordovaLib/Classes/Public/CDVCommandDelegate.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1963,7 +2047,7 @@
 		<key>7BCD570C7C2A02C6C4322636550D6904</key>
 		<dict>
 			<key>fileRef</key>
-			<string>61998C73E975ACA9F44B7E696B9C65DC</string>
+			<string>8EB0E37A4F6D05CA85D6B1F9BDA0B67A</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -1999,7 +2083,7 @@
 			<array>
 				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
 				<string>20B56609144CE204DFA8221F742B2D76</string>
-				<string>E1E63F87CC729106506444C16AB1231E</string>
+				<string>C963B7F7A06368A6DBA5D1CEE05DDA2F</string>
 				<string>726926CE5475BE11D945BB6352D295A4</string>
 				<string>0FE1FFA08A6C71C7FC8E52A954F555F1</string>
 			</array>
@@ -2065,10 +2149,25 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
+		<key>805201CD75053291AA62DBE128FE3B1A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>CDVUIWebViewDelegate.m</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Private/Plugins/CDVUIWebViewEngine/CDVUIWebViewDelegate.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>80D817BC7D22F18996C7EA096C715896</key>
 		<dict>
 			<key>fileRef</key>
-			<string>1CC3D4354515C1EEA85CE9FEBC827089</string>
+			<string>E4A9D4D3CAECAC63418A209319084137</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2107,12 +2206,42 @@
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
 		</dict>
+		<key>81F35C01B31F71DB8FBD7A1DCAD7091F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>CDVGestureHandler.m</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Private/Plugins/CDVGestureHandler/CDVGestureHandler.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>839C8645A2962A7C16BAA274990344CB</key>
 		<dict>
 			<key>fileRef</key>
 			<string>EB0F6BF4EBBDB6B11ED75F5FCFDB7FAA</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>83C2EDC8B2D11D9C198B5C669C4D96F2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CDVScreenOrientationDelegate.h</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVScreenOrientationDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>8407C4DFC373AA09D348A2F7A97256B9</key>
 		<dict>
@@ -2174,21 +2303,6 @@
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
 		</dict>
-		<key>85FFD4FEA1B4695F22C44C4679FE6CB5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>CDVCommandDelegateImpl.m</string>
-			<key>path</key>
-			<string>CordovaLib/Classes/Public/CDVCommandDelegateImpl.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>86F809A8142D32AC6AEEAB9BF5A27584</key>
 		<dict>
 			<key>isa</key>
@@ -2222,16 +2336,33 @@
 			<key>remoteInfo</key>
 			<string>cordova-plugin-console</string>
 		</dict>
-		<key>8978D668C8FB4E51DCD04A19C68E8315</key>
+		<key>8ABC650537B1CB4AEAC8EF109123F3BB</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>CDVLogger.m</string>
 			<key>path</key>
-			<string>cordova-plugin-device.xcconfig</string>
+			<string>src/ios/CDVLogger.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8ABCBEDF3B3C7B395A1712B422A997E7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CDVAvailabilityDeprecated.h</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVAvailabilityDeprecated.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -2247,21 +2378,6 @@
 			<string>PBXSourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
-		</dict>
-		<key>8D1D6AF3CC8CE9C4CF76B2B0B164CEBF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CDVPlugin.h</string>
-			<key>path</key>
-			<string>CordovaLib/Classes/Public/CDVPlugin.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>8D5BC3A83967FEF465B34C6D37FA1EE2</key>
 		<dict>
@@ -2279,11 +2395,11 @@
 		<key>8E4A6AB8A8E74EA2E9B209993E9510E3</key>
 		<dict>
 			<key>fileRef</key>
-			<string>A0771C7F9CD1031AA61E1FA2DE388893</string>
+			<string>3DEC29FF2304E43DE2D963FBDED284E5</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>8F545044E823140DF3359161EB6B8890</key>
+		<key>8EB0E37A4F6D05CA85D6B1F9BDA0B67A</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2291,10 +2407,8 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>CDVPlugin.m</string>
 			<key>path</key>
-			<string>CordovaLib/Classes/Public/CDVPlugin.m</string>
+			<string>cordova-plugin-device-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -2314,14 +2428,14 @@
 		<key>8FA1B6293BF2A4EACDCDE8375EA37067</key>
 		<dict>
 			<key>fileRef</key>
-			<string>00A06C34CC5B09A98C691A9D49AE4BD3</string>
+			<string>B27C63D96F7422E6F6B594A99FFCE1FD</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>8FF66B5E05FBDBF73FDAA1F93D74BE11</key>
 		<dict>
 			<key>fileRef</key>
-			<string>9809E0AE2C728D1ACF261AEBEEAEBA63</string>
+			<string>041C7ADDAFD6164D42B25DFC8579318D</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2345,35 +2459,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>91C0FCC75D357460E7123DD0B6E2E103</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Cordova-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9207FE13DFD7820652BC359326F492E2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>CDVLocalStorage.m</string>
-			<key>path</key>
-			<string>CordovaLib/Classes/Private/Plugins/CDVLocalStorage/CDVLocalStorage.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>92CF518CCF75AE26ED453748C13BF829</key>
+		<key>91AA98EE9CA1BB84A1DE3282E2F6BB1C</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2382,13 +2468,13 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>CDVHandleOpenURL.h</string>
+			<string>CDVIntentAndNavigationFilter.h</string>
 			<key>path</key>
-			<string>CordovaLib/Classes/Private/Plugins/CDVHandleOpenURL/CDVHandleOpenURL.h</string>
+			<string>CordovaLib/Classes/Private/Plugins/CDVIntentAndNavigationFilter/CDVIntentAndNavigationFilter.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>930C128A2C8BF26AA2B90A5D59A48137</key>
+		<key>92A81CB2398ED9190FAE6DD866F187E3</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2397,9 +2483,9 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>CDVWebViewEngineProtocol.h</string>
+			<string>CDVURLProtocol.h</string>
 			<key>path</key>
-			<string>CordovaLib/Classes/Public/CDVWebViewEngineProtocol.h</string>
+			<string>CordovaLib/Classes/Public/CDVURLProtocol.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -2416,20 +2502,18 @@
 			<key>remoteInfo</key>
 			<string>Cordova</string>
 		</dict>
-		<key>935901FB7A92B55976D5BCAC998C46A7</key>
+		<key>93727429280933E46C8DFFC65807AF6C</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>8978D668C8FB4E51DCD04A19C68E8315</string>
-				<string>61998C73E975ACA9F44B7E696B9C65DC</string>
-				<string>78FBF80482E82B9CF462A12BE5558B40</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>Support Files</string>
+			<string>CDVHandleOpenURL.h</string>
 			<key>path</key>
-			<string>../Target Support Files/cordova-plugin-device</string>
+			<string>CordovaLib/Classes/Private/Plugins/CDVHandleOpenURL/CDVHandleOpenURL.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -2447,36 +2531,6 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>95828933D23F6235221EBE98665D55F6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>CDVUIWebViewDelegate.m</string>
-			<key>path</key>
-			<string>CordovaLib/Classes/Private/Plugins/CDVUIWebViewEngine/CDVUIWebViewDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>95CC3E2858F0221CE2F416065D470050</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CDVAvailability.h</string>
-			<key>path</key>
-			<string>CordovaLib/Classes/Public/CDVAvailability.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>96D12C091F3C3C1D9CF7A02E1293D3D7</key>
 		<dict>
 			<key>isa</key>
@@ -2488,40 +2542,10 @@
 			<key>targetProxy</key>
 			<string>EB710C5E35BF10088E979547DE20B7BC</string>
 		</dict>
-		<key>9809E0AE2C728D1ACF261AEBEEAEBA63</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CDVViewController.h</string>
-			<key>path</key>
-			<string>CordovaLib/Classes/Public/CDVViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>98C63CBC22F17A85C85C4AC6F0768534</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>CDVUserAgentUtil.m</string>
-			<key>path</key>
-			<string>CordovaLib/Classes/Public/CDVUserAgentUtil.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>9AA1C56907C52F64107218AFD726BAA9</key>
 		<dict>
 			<key>fileRef</key>
-			<string>AEBD0EBB0320697DB50BA005657012AE</string>
+			<string>21B1B752C4468AA82CD021D7B6389795</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2532,7 +2556,7 @@
 				</array>
 			</dict>
 		</dict>
-		<key>9B123E0577B2A59789DF6C2F77BA07C1</key>
+		<key>9CC8B8F0C91783D5B94168119A4DB6BA</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2540,10 +2564,8 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CDVInvokedUrlCommand.h</string>
 			<key>path</key>
-			<string>CordovaLib/Classes/Public/CDVInvokedUrlCommand.h</string>
+			<string>cordova-plugin-console-prefix.pch</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -2574,7 +2596,7 @@
 		<key>9ED2E347398B6CD8D39E28E089704F61</key>
 		<dict>
 			<key>fileRef</key>
-			<string>E731681F77ADE0E38B0269BA6258FDBC</string>
+			<string>283B2D362065BCD61348E529A781AE80</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -2608,7 +2630,7 @@
 		<key>A0145B1FA4DCA715BA208EA5915ADE3C</key>
 		<dict>
 			<key>fileRef</key>
-			<string>B5E5A5DACBA379F0FBDA269483BBC41E</string>
+			<string>EBA4AFB236BB76ACC2F19FF6A0ECBCEF</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2619,20 +2641,7 @@
 				</array>
 			</dict>
 		</dict>
-		<key>A059A80345AC7E802B1D6FE49CAB4201</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>cordova-plugin-console.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A0771C7F9CD1031AA61E1FA2DE388893</key>
+		<key>A031414CFE661980877E16FFDABC7421</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2641,55 +2650,53 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>CDVIntentAndNavigationFilter.m</string>
+			<string>CDVPluginResult.m</string>
 			<key>path</key>
-			<string>CordovaLib/Classes/Private/Plugins/CDVIntentAndNavigationFilter/CDVIntentAndNavigationFilter.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A176423C9A24C883DDA92F5473DF3DB3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NSDictionary+CordovaPreferences.m</string>
-			<key>path</key>
-			<string>CordovaLib/Classes/Public/NSDictionary+CordovaPreferences.m</string>
+			<string>CordovaLib/Classes/Public/CDVPluginResult.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>A17B587584BA077651391C3EC288EE77</key>
 		<dict>
 			<key>fileRef</key>
-			<string>005A8BD3355753508E6585875458296B</string>
+			<string>6C78CB3C3EE8442E5E65F55615D89229</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>A30061F6F3DADC7369F7093648F9B473</key>
+		<key>A208766BED2FB46795B23808B397F9EF</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>F395EDA54A19AFB45313B4DE58919B1C</string>
-				<string>91C0FCC75D357460E7123DD0B6E2E103</string>
-				<string>E7EBB4C237665C315E3E2026E06A8DF0</string>
+				<string>FB287C7FC92CF67FF08E394880965991</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Support Files</string>
+			<string>phonegap-ios-template</string>
 			<key>path</key>
-			<string>../Target Support Files/Cordova</string>
+			<string>phonegap-ios-template</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A28F59733EC4DD48E0C9334A88841632</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>CDVInvokedUrlCommand.m</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVInvokedUrlCommand.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>A304F25887E2166A991E52495459E7FA</key>
 		<dict>
 			<key>fileRef</key>
-			<string>92CF518CCF75AE26ED453748C13BF829</string>
+			<string>93727429280933E46C8DFFC65807AF6C</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2737,7 +2744,7 @@
 		<key>A473BEE65932931382C881985921AD05</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>8978D668C8FB4E51DCD04A19C68E8315</string>
+			<string>5F4CC050AFB9CD7B86376098B7C0E234</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
@@ -2767,36 +2774,6 @@
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
 			<string>Debug</string>
-		</dict>
-		<key>A49A50706A2D9605B898804548CCCBAC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CDVLogger.h</string>
-			<key>path</key>
-			<string>src/ios/CDVLogger.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A51106E2C54664D724284E9FFD20EDE6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>CDVHandleOpenURL.m</string>
-			<key>path</key>
-			<string>CordovaLib/Classes/Private/Plugins/CDVHandleOpenURL/CDVHandleOpenURL.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>A5685B2734652C0E76C6E44449271A01</key>
 		<dict>
@@ -2895,6 +2872,21 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
+		<key>A8B24B83388002F6D261D736810661C9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>CDVJSON_private.m</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Private/CDVJSON_private.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>A949B2B012D081BB1FBE61D251596DFC</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -2905,21 +2897,6 @@
 			<string>text.xcconfig</string>
 			<key>path</key>
 			<string>Pods.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AA122030D66E89EF736A15043D8A46CF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NSMutableArray+QueueAdditions.h</string>
-			<key>path</key>
-			<string>CordovaLib/Classes/Public/NSMutableArray+QueueAdditions.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -2937,7 +2914,7 @@
 		<key>ABE524CA5BAB887B71B312F687D91584</key>
 		<dict>
 			<key>fileRef</key>
-			<string>8D1D6AF3CC8CE9C4CF76B2B0B164CEBF</string>
+			<string>B5C0F420F8E2835E2405FEDA6DF87939</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2980,6 +2957,23 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
+		<key>AD6BBCB98C6B6414DC2D7AE97D263BBB</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>C8FE492873F3CE981AB64AB9D8C6320A</string>
+				<string>05EB5C6247D3A0DAA74037BF0B086AFE</string>
+				<string>9CC8B8F0C91783D5B94168119A4DB6BA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/cordova-plugin-console</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>ADDD65F358D752CE250974E39539979B</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -3000,51 +2994,6 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>AE9A4D21FCBB2AA33D80E6A20BE64095</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CDVCommandQueue.h</string>
-			<key>path</key>
-			<string>CordovaLib/Classes/Public/CDVCommandQueue.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AEBD0EBB0320697DB50BA005657012AE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CDVConfigParser.h</string>
-			<key>path</key>
-			<string>CordovaLib/Classes/Public/CDVConfigParser.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AFC62D9FEB8E70C51E7A67B7CACC9B04</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>CDVConfigParser.m</string>
-			<key>path</key>
-			<string>CordovaLib/Classes/Public/CDVConfigParser.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>B026A9692A98482DB65778EF3C14857E</key>
 		<dict>
 			<key>fileRef</key>
@@ -3055,7 +3004,7 @@
 		<key>B116D8AFFDA9536ABD5A9C65916340FD</key>
 		<dict>
 			<key>fileRef</key>
-			<string>29183F361C1D0C2353FBA6A64751C316</string>
+			<string>91AA98EE9CA1BB84A1DE3282E2F6BB1C</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3066,33 +3015,18 @@
 				</array>
 			</dict>
 		</dict>
-		<key>B200A184B12AEFD761FAB95B4DBE7337</key>
+		<key>B27C63D96F7422E6F6B594A99FFCE1FD</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>CDVScreenOrientationDelegate.h</string>
+			<string>CDVWhitelist.m</string>
 			<key>path</key>
-			<string>CordovaLib/Classes/Public/CDVScreenOrientationDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B38D7A5793240C9F05C73B34539B9FA6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CDVPlugin+Resources.h</string>
-			<key>path</key>
-			<string>CordovaLib/Classes/Public/CDVPlugin+Resources.h</string>
+			<string>CordovaLib/Classes/Public/CDVWhitelist.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -3125,25 +3059,10 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>B4F062C8429E4089DE1EF0BE00410452</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CDVGestureHandler.h</string>
-			<key>path</key>
-			<string>CordovaLib/Classes/Private/Plugins/CDVGestureHandler/CDVGestureHandler.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>B5328E021EB870A53FB851037635C631</key>
 		<dict>
 			<key>fileRef</key>
-			<string>77464FCBC7B6F844CF2980036018F660</string>
+			<string>8ABC650537B1CB4AEAC8EF109123F3BB</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3152,7 +3071,7 @@
 				<string>-fno-objc-arc</string>
 			</dict>
 		</dict>
-		<key>B5E5A5DACBA379F0FBDA269483BBC41E</key>
+		<key>B5C0F420F8E2835E2405FEDA6DF87939</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -3161,9 +3080,24 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>CDVUserAgentUtil.h</string>
+			<string>CDVPlugin.h</string>
 			<key>path</key>
-			<string>CordovaLib/Classes/Public/CDVUserAgentUtil.h</string>
+			<string>CordovaLib/Classes/Public/CDVPlugin.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B64434614E459AE77B55A4D6B646A663</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CDVWebViewEngineProtocol.h</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVWebViewEngineProtocol.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -3190,7 +3124,7 @@
 		<key>B839C921B3F57B12C0C29C91C52A7226</key>
 		<dict>
 			<key>fileRef</key>
-			<string>8F545044E823140DF3359161EB6B8890</string>
+			<string>41190A87AF3053E7577EE428A5D1E509</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -3207,10 +3141,25 @@
 			<key>remoteInfo</key>
 			<string>cordova-plugin-device</string>
 		</dict>
+		<key>B90E9ED1F71195685C40AF4690649156</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>NSMutableArray+QueueAdditions.h</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/NSMutableArray+QueueAdditions.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>B9C41EA3154F4DEA01B3C2E852DC6BC9</key>
 		<dict>
 			<key>fileRef</key>
-			<string>95CC3E2858F0221CE2F416065D470050</string>
+			<string>F4792F31F1999EF078E86D95CB8EF944</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3241,9 +3190,24 @@
 		<key>BC6D3256ECC3237667B949EE89F45854</key>
 		<dict>
 			<key>fileRef</key>
-			<string>D53B7EB57647BAAC23F48470C8763732</string>
+			<string>FD4EA9778C54E0B78AFFD8717BA3CA8A</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>BCACAFBDF7A06AF92C5FAF0C3B94639D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>CDVUserAgentUtil.m</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVUserAgentUtil.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>BD309D3866FA9231CD1966E2EAD94417</key>
 		<dict>
@@ -3279,25 +3243,25 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C01CCF9F6C59CC2F597677D7B004B004</key>
+		<key>BEAE27147D9CB340196100E5C9B56054</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>CDVViewController.m</string>
+			<string>CDVWhitelist.h</string>
 			<key>path</key>
-			<string>CordovaLib/Classes/Public/CDVViewController.m</string>
+			<string>CordovaLib/Classes/Public/CDVWhitelist.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>C093F85370593E59C6897E0C6B2CBBB8</key>
 		<dict>
 			<key>fileRef</key>
-			<string>5797CDE9FE76505251EA1AE0988F4EBD</string>
+			<string>92A81CB2398ED9190FAE6DD866F187E3</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3333,10 +3297,40 @@
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
 		</dict>
+		<key>C3A92C73BB7C6B4FD017D913ABBA8887</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CDVJSON_private.h</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Private/CDVJSON_private.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C4242440A700CFC478DFE6F46E26DAE8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CDV.h</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDV.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>C5B1DC0EBE5FAC5B5028C9783175FE7F</key>
 		<dict>
 			<key>fileRef</key>
-			<string>39AB2546F542CF8F7074C5B44FFD8F6F</string>
+			<string>C949BCDF6E2AF5EF27DD2F5747EBF638</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3347,72 +3341,60 @@
 				</array>
 			</dict>
 		</dict>
-		<key>CA0A69D6224EB25CA7CC07940DD19D49</key>
+		<key>C5E02AB086722DB3C2D8D8E1065B8B49</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Cordova-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C8FE492873F3CE981AB64AB9D8C6320A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>cordova-plugin-console.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C949BCDF6E2AF5EF27DD2F5747EBF638</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CDVPlugin+Private.h</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Private/CDVPlugin+Private.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C963B7F7A06368A6DBA5D1CEE05DDA2F</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>79E49100FC3CAD312B360AB9243D9191</string>
-				<string>1CC3D4354515C1EEA85CE9FEBC827089</string>
-				<string>49B1DADA154F9A3C295ABF957948E2A1</string>
-				<string>95CC3E2858F0221CE2F416065D470050</string>
-				<string>DEF29EC5D56CD49ED3968F776B6D9440</string>
-				<string>1EF80F36CD8A1793EE685BF8C26E9B01</string>
-				<string>E09632A8B3CE20E242EF55FC3142BF53</string>
-				<string>85FFD4FEA1B4695F22C44C4679FE6CB5</string>
-				<string>AE9A4D21FCBB2AA33D80E6A20BE64095</string>
-				<string>6838256D1F27DD62F6A31DB0DF1A6A75</string>
-				<string>AEBD0EBB0320697DB50BA005657012AE</string>
-				<string>AFC62D9FEB8E70C51E7A67B7CACC9B04</string>
-				<string>120432F83B5D6B293D440F83191EB423</string>
-				<string>B4F062C8429E4089DE1EF0BE00410452</string>
-				<string>7B15727C9E26A5E546E6DE2F7AF88C0D</string>
-				<string>92CF518CCF75AE26ED453748C13BF829</string>
-				<string>A51106E2C54664D724284E9FFD20EDE6</string>
-				<string>29183F361C1D0C2353FBA6A64751C316</string>
-				<string>A0771C7F9CD1031AA61E1FA2DE388893</string>
-				<string>9B123E0577B2A59789DF6C2F77BA07C1</string>
-				<string>55B3F46C69F16E0A90D858EB30B0E714</string>
-				<string>DF4A99501474AEE3C98473056676F028</string>
-				<string>1076B686D2A7574DBD215A878303568A</string>
-				<string>30983330AA74D3693CCA404274F43289</string>
-				<string>9207FE13DFD7820652BC359326F492E2</string>
-				<string>8D1D6AF3CC8CE9C4CF76B2B0B164CEBF</string>
-				<string>8F545044E823140DF3359161EB6B8890</string>
-				<string>39AB2546F542CF8F7074C5B44FFD8F6F</string>
-				<string>B38D7A5793240C9F05C73B34539B9FA6</string>
-				<string>515615DFE24934B868D0983ECAED3A8D</string>
-				<string>15F8F3FDE597C1C91C5825865C23BCAA</string>
-				<string>6464871C1DD001D78F4E69C8C03F6534</string>
-				<string>B200A184B12AEFD761FAB95B4DBE7337</string>
-				<string>714FAFC54B7922F4F394E2CAA1D67C61</string>
-				<string>E731681F77ADE0E38B0269BA6258FDBC</string>
-				<string>53E7168A2050EB67EB5E04C671C53B8D</string>
-				<string>95828933D23F6235221EBE98665D55F6</string>
-				<string>1B4C23ED1A14B9FFFC37893CC5F752BF</string>
-				<string>ECE46E51F984B58EC7153C778D4033DD</string>
-				<string>49332E6CACFE9788EF68C68AEA8E8B51</string>
-				<string>005A8BD3355753508E6585875458296B</string>
-				<string>5797CDE9FE76505251EA1AE0988F4EBD</string>
-				<string>43D393BB8939F785717DA74B8A127891</string>
-				<string>B5E5A5DACBA379F0FBDA269483BBC41E</string>
-				<string>98C63CBC22F17A85C85C4AC6F0768534</string>
-				<string>9809E0AE2C728D1ACF261AEBEEAEBA63</string>
-				<string>C01CCF9F6C59CC2F597677D7B004B004</string>
-				<string>930C128A2C8BF26AA2B90A5D59A48137</string>
-				<string>183598E0263231DFB3EE631D8CD02D67</string>
-				<string>00A06C34CC5B09A98C691A9D49AE4BD3</string>
-				<string>2AF57B02F973D111B7D0D35A6019F3AE</string>
-				<string>A176423C9A24C883DDA92F5473DF3DB3</string>
-				<string>AA122030D66E89EF736A15043D8A46CF</string>
-				<string>D53B7EB57647BAAC23F48470C8763732</string>
-				<string>A30061F6F3DADC7369F7093648F9B473</string>
+				<string>56E4B15CBC46B08F56A8DA00C78E0979</string>
+				<string>5521503466933AFA8E3E1E95F3EABB75</string>
+				<string>06D95349E3A9081EA433C4CD93E2A719</string>
+				<string>A208766BED2FB46795B23808B397F9EF</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Cordova</string>
-			<key>path</key>
-			<string>Cordova</string>
+			<string>Pods</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -3459,7 +3441,7 @@
 		<key>CCE87F3BE8F379F0F64A7C3A2DDA8016</key>
 		<dict>
 			<key>fileRef</key>
-			<string>1EF80F36CD8A1793EE685BF8C26E9B01</string>
+			<string>7A39D73CD2A403D0E7C1CB85FE8417B0</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3510,10 +3492,25 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
+		<key>D2D0A5F4AB9ECA1E64B93A89D7F45BEC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CDVTimer.h</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVTimer.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>D3B00DAF4D5E3354D21E4D190689B916</key>
 		<dict>
 			<key>fileRef</key>
-			<string>930C128A2C8BF26AA2B90A5D59A48137</string>
+			<string>B64434614E459AE77B55A4D6B646A663</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3571,7 +3568,7 @@
 		<key>D4D51C0B0559C9943738DBFA4263CFC5</key>
 		<dict>
 			<key>fileRef</key>
-			<string>B200A184B12AEFD761FAB95B4DBE7337</string>
+			<string>83C2EDC8B2D11D9C198B5C669C4D96F2</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3582,25 +3579,10 @@
 				</array>
 			</dict>
 		</dict>
-		<key>D53B7EB57647BAAC23F48470C8763732</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NSMutableArray+QueueAdditions.m</string>
-			<key>path</key>
-			<string>CordovaLib/Classes/Public/NSMutableArray+QueueAdditions.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>D74C6845ED3663F96C82F8216222574C</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>F395EDA54A19AFB45313B4DE58919B1C</string>
+			<string>128185B805857ED312AECD515511C4C8</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
@@ -3634,7 +3616,7 @@
 		<key>D92D38A9CEBF930067A1861C2379DD7B</key>
 		<dict>
 			<key>fileRef</key>
-			<string>43D393BB8939F785717DA74B8A127891</string>
+			<string>273202EBFA10FCFFF6CBE518BBF80801</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -3648,6 +3630,21 @@
 			<string>text</string>
 			<key>path</key>
 			<string>Pods-PGDayEU16UITests-acknowledgements.markdown</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DAACF945B3058F14FDCAEE98A12542F6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>CDVConfigParser.m</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVConfigParser.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -3667,7 +3664,7 @@
 		<key>DD44B81CFA55773AEF914D26A34DB11D</key>
 		<dict>
 			<key>fileRef</key>
-			<string>E09632A8B3CE20E242EF55FC3142BF53</string>
+			<string>008F72FA5F77B6D9ACE8054978F17A52</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3678,7 +3675,7 @@
 				</array>
 			</dict>
 		</dict>
-		<key>DEF29EC5D56CD49ED3968F776B6D9440</key>
+		<key>DE49A523BA7F44DEF4FC548748F8F74C</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -3687,13 +3684,13 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>CDVAvailabilityDeprecated.h</string>
+			<string>CDVUIWebViewDelegate.h</string>
 			<key>path</key>
-			<string>CordovaLib/Classes/Public/CDVAvailabilityDeprecated.h</string>
+			<string>CordovaLib/Classes/Private/Plugins/CDVUIWebViewEngine/CDVUIWebViewDelegate.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DF4A99501474AEE3C98473056676F028</key>
+		<key>DFF049FFEE7EE4EEB22006D2FD5373F3</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -3702,9 +3699,9 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>CDVJSON_private.h</string>
+			<string>CDVGestureHandler.h</string>
 			<key>path</key>
-			<string>CordovaLib/Classes/Private/CDVJSON_private.h</string>
+			<string>CordovaLib/Classes/Private/Plugins/CDVGestureHandler/CDVGestureHandler.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -3721,21 +3718,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E09632A8B3CE20E242EF55FC3142BF53</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CDVCommandDelegateImpl.h</string>
-			<key>path</key>
-			<string>CordovaLib/Classes/Public/CDVCommandDelegateImpl.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>E1A33084BD35B76A1A93628A902C7306</key>
 		<dict>
 			<key>containerPortal</key>
@@ -3749,25 +3731,42 @@
 			<key>remoteInfo</key>
 			<string>Cordova</string>
 		</dict>
-		<key>E1E63F87CC729106506444C16AB1231E</key>
+		<key>E1BCF9DEB46CF9E77BD3A3323F7DD18F</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>CA0A69D6224EB25CA7CC07940DD19D49</string>
-				<string>77E2B809524F223DB38A93693D75D642</string>
-				<string>ED358EEA3F2A15835A619DE88DAD47E3</string>
+				<string>128185B805857ED312AECD515511C4C8</string>
+				<string>C5E02AB086722DB3C2D8D8E1065B8B49</string>
+				<string>F8837272EA094F0F21B16C1EF5396404</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Pods</string>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/Cordova</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E322A88F57816DB48956747669A55255</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>CDVCommandDelegateImpl.m</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVCommandDelegateImpl.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>E43B77BAC8AB3BC221FEC35A960F8C63</key>
 		<dict>
 			<key>fileRef</key>
-			<string>15F8F3FDE597C1C91C5825865C23BCAA</string>
+			<string>06C31408AB252B7398ABACF611B90247</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3791,10 +3790,40 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>E4A9D4D3CAECAC63418A209319084137</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CDVAppDelegate.h</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVAppDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E5FAF915416DC5CC5EBD9250EE449580</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CDVLogger.h</string>
+			<key>path</key>
+			<string>src/ios/CDVLogger.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>E640C7A9507402B1AC562AD8E7593DFB</key>
 		<dict>
 			<key>fileRef</key>
-			<string>2D2BFC8B8CA4B16F331DCB170FDA5E00</string>
+			<string>05EB5C6247D3A0DAA74037BF0B086AFE</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -3810,34 +3839,6 @@
 			<string>PBXSourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
-		</dict>
-		<key>E731681F77ADE0E38B0269BA6258FDBC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>CDVTimer.m</string>
-			<key>path</key>
-			<string>CordovaLib/Classes/Public/CDVTimer.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E7EBB4C237665C315E3E2026E06A8DF0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Cordova-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>E83ABEF6D074DB029304245F9D45F9E4</key>
 		<dict>
@@ -3855,7 +3856,7 @@
 		<key>E9C8CBDA2768A3DF0F9F4D6AA158535E</key>
 		<dict>
 			<key>fileRef</key>
-			<string>55B3F46C69F16E0A90D858EB30B0E714</string>
+			<string>A28F59733EC4DD48E0C9334A88841632</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -3898,6 +3899,21 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>EBA4AFB236BB76ACC2F19FF6A0ECBCEF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CDVUserAgentUtil.h</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVUserAgentUtil.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>EBFD84F2F844C6071B7BD86CA28592E5</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -3908,38 +3924,6 @@
 			<string>text.xcconfig</string>
 			<key>path</key>
 			<string>Pods-PGDayEU16UITests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>ECE46E51F984B58EC7153C778D4033DD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>CDVUIWebViewEngine.m</string>
-			<key>path</key>
-			<string>CordovaLib/Classes/Private/Plugins/CDVUIWebViewEngine/CDVUIWebViewEngine.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>ED358EEA3F2A15835A619DE88DAD47E3</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1DD1B57F1DE5B5436AE8F6404A7C758D</string>
-				<string>49B7CB94A9394A7BF6ED36843F3A12C9</string>
-				<string>935901FB7A92B55976D5BCAC998C46A7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>cordova-plugin-device</string>
-			<key>path</key>
-			<string>cordova-plugin-device</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -3959,7 +3943,7 @@
 		<key>EE33AD56BEB6B612F750A407EC806838</key>
 		<dict>
 			<key>fileRef</key>
-			<string>B4F062C8429E4089DE1EF0BE00410452</string>
+			<string>DFF049FFEE7EE4EEB22006D2FD5373F3</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3986,7 +3970,7 @@
 		<key>EFA6747B6101B84E47B54D0795DCEAA4</key>
 		<dict>
 			<key>fileRef</key>
-			<string>183598E0263231DFB3EE631D8CD02D67</string>
+			<string>BEAE27147D9CB340196100E5C9B56054</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -4060,7 +4044,7 @@
 		<key>F1521306039759AA580D0CEE4E462A94</key>
 		<dict>
 			<key>fileRef</key>
-			<string>ECE46E51F984B58EC7153C778D4033DD</string>
+			<string>0CFB810604FB9D34B47E0438277529A3</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -4079,16 +4063,33 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>F395EDA54A19AFB45313B4DE58919B1C</key>
+		<key>F4792F31F1999EF078E86D95CB8EF944</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CDVAvailability.h</string>
 			<key>path</key>
-			<string>Cordova.xcconfig</string>
+			<string>CordovaLib/Classes/Public/CDVAvailability.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F4D61576856E48F66ED9F751A6F2B4F3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CDVCommandQueue.h</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/CDVCommandQueue.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -4104,6 +4105,33 @@
 			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
+		</dict>
+		<key>F8837272EA094F0F21B16C1EF5396404</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Cordova-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FB287C7FC92CF67FF08E394880965991</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>FCD412050EC24904A51D0C522CE92C36</string>
+				<string>33391F20EF3AF14AAC25E4AC96A504CF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Resources</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>FB45FFD90572718D82AB9092B750F0CA</key>
 		<dict>
@@ -4186,12 +4214,40 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
+		<key>FCD412050EC24904A51D0C522CE92C36</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>config.xml</string>
+			<key>path</key>
+			<string>resources/config.xml</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>FD4A0D51982A8703561135DAC1565B30</key>
 		<dict>
 			<key>fileRef</key>
 			<string>EB0F6BF4EBBDB6B11ED75F5FCFDB7FAA</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>FD4EA9778C54E0B78AFFD8717BA3CA8A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>NSMutableArray+QueueAdditions.m</string>
+			<key>path</key>
+			<string>CordovaLib/Classes/Public/NSMutableArray+QueueAdditions.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>FF981384AA9D810EB43653AB8DB68C12</key>
 		<dict>

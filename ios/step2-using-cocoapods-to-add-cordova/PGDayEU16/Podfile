@@ -1,9 +1,14 @@
 platform :ios, '8.0'
 
+# The latest published version of the Cordova-iOS library
 pod 'Cordova'
 
+# Any core Cordova plugins we need
 pod 'cordova-plugin-console'
 pod 'cordova-plugin-device'
+
+# A handy starter template we'll add our own www bits to
+pod 'phonegap-ios-template'
 
 target 'PGDayEU16' do
 
