@@ -8,9 +8,7 @@ Once installed and `deviceready` fires a global `PGDayEU16Plugin` object will be
 ### retrieveList
 ```js
 PGDayEU16Plugin.retrieveList(
-  {
-    item: "A nice description"
-  },
+  {},
   onSuccess,
   onError
 );
@@ -19,7 +17,9 @@ PGDayEU16Plugin.retrieveList(
 ### addToList
 ```js
 PGDayEU16Plugin.addToList(
-  {},
+  {
+    item: "A nice description"
+  },
   onSuccess,
   onError
 );

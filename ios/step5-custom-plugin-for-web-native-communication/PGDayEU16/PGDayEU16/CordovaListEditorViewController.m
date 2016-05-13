@@ -1,20 +1,21 @@
 //
-//  CordovaListEditor.m
+//  CordovaListEditorViewController.m
 //  PGDayEU16
 //
 //  Created by Eddy Verbruggen on 13/05/16.
 //  Copyright © 2016 Eddy Verbruggen. All rights reserved.
 //
 
-#import "CordovaListEditor.h"
+#import "CordovaListEditorViewController.h"
 
-@interface SecondViewController ()
+@interface CordovaListEditorViewController ()
 
 @end
 
-@implementation SecondViewController
+@implementation CordovaListEditorViewController
 
 - (void)viewDidLoad {
+  [self setStartPage:@"listeditor.html"];
   [super viewDidLoad];
   // Do any additional setup after loading the view, typically from a nib.
 }

@@ -1,5 +1,5 @@
 //
-//  CordovaListEditor.h
+//  CordovaListEditorViewController.h
 //  PGDayEU16
 //
 //  Created by Eddy Verbruggen on 13/05/16.
@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <Cordova/CDVViewController.h>
 
-@interface CordovaListEditor : CDVViewController
+@interface CordovaListEditorViewController : CDVViewController
 
 
 @end
