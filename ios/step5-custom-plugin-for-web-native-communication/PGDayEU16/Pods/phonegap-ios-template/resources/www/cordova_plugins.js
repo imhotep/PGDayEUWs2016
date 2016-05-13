@@ -1,6 +1,14 @@
 cordova.define('cordova/plugin_list', function(require, exports, module) {
     module.exports = [
         {
+            "file": "plugins/cordova-plugin-pgdayeu16/www/PGDayEU16Plugin.js",
+            "id": "cordova-plugin-pgdayeu16.PGDayEU16Plugin",
+            "pluginId": "cordova-plugin-pgdayeu16",
+            "clobbers": [
+                "window.PGDayEU16Plugin"
+            ]
+        },
+        {
             "file": "plugins/cordova-plugin-device/www/device.js",
             "id": "cordova-plugin-device.device",
             "pluginId": "cordova-plugin-device",
@@ -22,14 +30,6 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
             "pluginId": "cordova-plugin-console",
             "clobbers": [
                 "cordova.logger"
-            ]
-        },
-        {
-            "file": "plugins/cordova-plugin-pgdayeu16/www/PGDayEU16Plugin.js",
-            "id": "cordova-plugin-pgdayeu16.PGDayEU16Plugin",
-            "pluginId": "cordova-plugin-pgdayeu16",
-            "clobbers": [
-                "window.PGDayEU16Plugin"
             ]
         }
     ];
