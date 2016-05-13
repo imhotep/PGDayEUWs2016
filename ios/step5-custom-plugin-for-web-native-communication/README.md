@@ -7,6 +7,10 @@ __This is a lot of stuff so you might want to just grab the code folder instead 
 ## Let's add a plugin
 We'll do this one manually (as opposed to using CocoaPods) as that's also useful to learn.
 
+When the first steps below have been completed you'll end up with this:
+
+![ScreenShot](plugin-native-code.png)
+
 - In Xcode right-click your project (top left) and select `New Group`, call it `cordova-plugin-pgdayeu16`
 - Right-click that new folder and click `New file...`, select `iOS` > `Source` > `Header File`, name it `PGDayEU16Plugin.h` and paste these contents:
 
@@ -74,8 +78,6 @@ static NSString *const kPluginOptionItem = @"item";
         },
 ```
 
-- 
-
 You have now added the Cordova plugin native files, the JS bridge and the necessary wiring, bravo!
 
 ## Let's use the plugin
@@ -87,4 +89,4 @@ The current native ViewController will become the native editor, for the web edi
 
 - Add a tab by opening `Main.storyboard` and dragging a `ViewController` onto the canvas
 - Hold the `ctrl` key and drag from the 'Tab Bar Controller' to the new ViewController - that should add a new tab bar item
-- .. TODO 
+- .. TODO ..
