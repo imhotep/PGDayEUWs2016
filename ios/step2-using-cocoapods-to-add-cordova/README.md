@@ -37,4 +37,4 @@ end
 - __IMPORTANT__: Once the dust settles open the `*.xcworkspace` file, not the `*.xcodeproj` file
 - You should still be able to run the app on your phone - if not make sure your project structure in Xcode looks like this:
 
-![ScreenShot](xcode-project-structure)
+![ScreenShot](xcode-project-structure.png)

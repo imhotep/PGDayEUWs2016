@@ -5,3 +5,4 @@ Work your way through the steps or jump to one directly. Download the source in 
 
 1. [Scaffolding the Native app](step1-scaffolding-the-native-app)
 2. [Using CocoaPods to add Cordova](step2-using-cocoapods-to-add-cordova)
+3. [Embedding the Cordova WebView](step3-embedding-the-cordova-webview)
