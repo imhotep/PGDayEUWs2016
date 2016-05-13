@@ -15,6 +15,7 @@
 @implementation CordovaListEditorViewController
 
 - (void)viewDidLoad {
+  // we don't want the default "index.html" for this ViewController
   [self setStartPage:@"listeditor.html"];
   [super viewDidLoad];
   // Do any additional setup after loading the view, typically from a nib.

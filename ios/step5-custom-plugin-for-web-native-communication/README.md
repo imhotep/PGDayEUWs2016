@@ -4,12 +4,12 @@ Adding a custom plugin for web-native communication
 
 __This is a lot of stuff so you might want to just grab the code folder instead of following along__
 
+When these steps have been completed you'll end up with this:
+
+![ScreenShot](native-code-changes.png)
+
 ## Let's add a plugin
 We'll do this one manually (as opposed to using CocoaPods) as that's also useful to learn.
-
-When the first steps below have been completed you'll end up with this:
-
-![ScreenShot](plugin-native-code.png)
 
 - In Xcode right-click your project (top left) and select `New Group`, call it `cordova-plugin-pgdayeu16`
 - Right-click that new folder and click `New file...`, select `iOS` > `Source` > `Header File`, name it `PGDayEU16Plugin.h` and paste these contents:
@@ -87,6 +87,59 @@ For both web and native we will create a view with an input field and a list and
 
 The current native ViewController will become the native editor, for the web editor we'll add a third tab.
 
+- Right-click your app and click `New file...`, select `iOS` > `Source` > `Header File`, name it `CordovaListEditorViewController.h` and paste these contents:
+
+```objective-c
+#import <UIKit/UIKit.h>
+#import <Cordova/CDVViewController.h>
+
+@interface CordovaListEditorViewController : CDVViewController
+
+@end
+```
+- Right-click the folder again and click `New file...`, select `iOS` > `Source` > `Objective-C File`, name it `CordovaListEditorViewController.m` (select your app's target when asked!) and paste these contents:
+
+```objective-c
+#import "CordovaListEditorViewController.h"
+
+@interface CordovaListEditorViewController ()
+
+@end
+
+@implementation CordovaListEditorViewController
+
+- (void)viewDidLoad {
+  // we don't want the default "index.html" for this ViewController
+  [self setStartPage:@"listeditor.html"];
+  [super viewDidLoad];
+  // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+  CGRect viewBounds = self.view.bounds;
+  CGFloat tabBarHeight = self.tabBarController.tabBar.frame.size.height;
+  CGRect webViewBounds = CGRectMake(viewBounds.origin.x,
+                                    viewBounds.origin.y,
+                                    viewBounds.size.width,
+                                    viewBounds.size.height - tabBarHeight);
+
+  self.webView.frame = webViewBounds;
+  self.webView.backgroundColor = [UIColor clearColor];
+
+  [super viewWillAppear:animated];
+}
+
+- (void)didReceiveMemoryWarning {
+  [super didReceiveMemoryWarning];
+  // Dispose of any resources that can be recreated.
+}
+
+@end
+```
+
 - Add a tab by opening `Main.storyboard` and dragging a `ViewController` onto the canvas
 - Hold the `ctrl` key and drag from the 'Tab Bar Controller' to the new ViewController - that should add a new tab bar item
-- .. TODO ..
+- Select the new Scene you added and change the `Custom class` to `CordovaListEditorViewController` (which you just added)
+
+- TODO copy in www-shared from the root
