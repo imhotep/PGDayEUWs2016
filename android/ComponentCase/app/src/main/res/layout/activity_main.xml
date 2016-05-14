@@ -14,6 +14,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
         </org.apache.cordova.engine.SystemWebView>
+        <include layout="@layout/bookmark_main"/>
     </FrameLayout>
 
     <!-- android:layout_gravity="start" tells DrawerLayout to treat

@@ -10,20 +10,28 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.BaseAdapter;
+import android.widget.EditText;
+import android.widget.LinearLayout;
+import android.widget.ListView;
+import android.widget.TextView;
 
 import org.apache.cordova.ConfigXmlParser;
 import org.apache.cordova.CordovaInterfaceImpl;
 import org.apache.cordova.CordovaWebView;
 import org.apache.cordova.CordovaWebViewImpl;
-import org.apache.cordova.PluginManager;
 import org.apache.cordova.engine.SystemWebView;
 import org.apache.cordova.engine.SystemWebViewEngine;
 import org.json.JSONException;
+
+import java.util.ArrayList;
 
 
 public class MainActivity extends AppCompatActivity
@@ -39,10 +47,14 @@ public class MainActivity extends AppCompatActivity
      */
     private CharSequence mTitle;
 
+    private SystemWebView webView;
     private CordovaWebView webInterface;
     private CordovaInterfaceImpl stupidface = new CordovaInterfaceImpl(this);
 
     private String TAG = "ComponentWrapper";
+
+    private LinearLayout bookmarkLayout;
+    private ArrayList<String> bookmarks = new ArrayList<String>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,11 +70,37 @@ public class MainActivity extends AppCompatActivity
                 R.id.navigation_drawer,
                 (DrawerLayout) findViewById(R.id.drawer_layout));
 
+        // Set up the bookmark view
+        bookmarks.add("http://google.com"); // dummy bookmark
+        bookmarkLayout = (LinearLayout) findViewById(R.id.bookmarkLayout);
+        final ListView listView = (ListView) findViewById(R.id.bookmarkView);
+        if(listView != null) {
+            listView.setAdapter(new ArrayAdapter<String>(this,
+                    android.R.layout.simple_list_item_activated_1,
+                    android.R.id.text1,
+                    bookmarks));
+        }
+        EditText bookmark = (EditText)findViewById(R.id.bookmark);
+        if(bookmark != null) {
+            bookmark.setOnEditorActionListener(new TextView.OnEditorActionListener() {
+                @Override
+                public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
+                    if (event != null) {
+                        String text = v.getText().toString();
+                        bookmarks.add(text);
+                        ((BaseAdapter)listView.getAdapter()).notifyDataSetChanged();
+                        v.setText("");
+                    }
+                    return false;
+                }
+            });
+        }
+
         //Set up the webview
         ConfigXmlParser parser = new ConfigXmlParser();
         parser.parse(this);
 
-        SystemWebView webView = (SystemWebView) findViewById(R.id.WebViewComponent);
+        webView = (SystemWebView) findViewById(R.id.WebViewComponent);
         webInterface = new CordovaWebViewImpl(new SystemWebViewEngine(webView));
         webInterface.init(stupidface, parser.getPluginEntries(), parser.getPreferences());
 
@@ -76,6 +114,17 @@ public class MainActivity extends AppCompatActivity
         fragmentManager.beginTransaction()
                 .replace(R.id.container, PlaceholderFragment.newInstance(position + 1))
                 .commit();
+
+        if(bookmarkLayout!= null && webView != null) {
+            if(position == 2) {
+                bookmarkLayout.setVisibility(View.VISIBLE);
+                webView.setVisibility(View.GONE);
+            }
+            if(position == 0 || position == 1) {
+                bookmarkLayout.setVisibility(View.GONE);
+                webView.setVisibility(View.VISIBLE);
+            }
+        }
     }
 
     public void onSectionAttached(int number) {
@@ -132,13 +181,8 @@ public class MainActivity extends AppCompatActivity
     @Override
     public void onDestroy()
     {
+        webInterface.handleDestroy();
         super.onDestroy();
-        PluginManager pluginManager = webInterface.getPluginManager();
-        if(pluginManager != null)
-        {
-            pluginManager.onDestroy();
-        }
-
     }
 
 
