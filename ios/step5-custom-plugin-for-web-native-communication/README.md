@@ -141,5 +141,11 @@ The current native ViewController will become the native editor, for the web edi
 - Add a tab by opening `Main.storyboard` and dragging a `ViewController` onto the canvas
 - Hold the `ctrl` key and drag from the 'Tab Bar Controller' to the new ViewController - that should add a new tab bar item
 - Select the new Scene you added and change the `Custom class` to `CordovaListEditorViewController` (which you just added)
+- Copy the [shared www folder](../www-shared) over `Pods` > `phonegap-ios-template` > `Resources` > `www`, overriding any files already there
 
-- TODO copy in www-shared from the root
+
+__FINISH__
+
+You made it - When you now run the app you should have 3 tabs and a working list editor which syncs between web and native!
+
+If you want to add some sugar and learn more, continue to the next step :)

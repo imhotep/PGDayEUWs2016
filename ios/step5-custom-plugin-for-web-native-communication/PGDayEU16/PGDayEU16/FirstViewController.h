@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface FirstViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
 
+@property (nonatomic, strong) NSMutableArray * items;
+@property (nonatomic, strong) UITextField * textField;
+@property (nonatomic, strong) UITableView * tableView;
 
 @end
-
