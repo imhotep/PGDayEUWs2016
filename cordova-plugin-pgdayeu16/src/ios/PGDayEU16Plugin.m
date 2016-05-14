@@ -1,13 +1,16 @@
 #import "PGDayEU16Plugin.h"
+#import "CordovaListEditorViewController.h"
+#import "FirstViewController.h"
 
 static NSString *const kPluginOptionItem = @"item";
 
 @implementation PGDayEU16Plugin
 
 - (void) retrieveList:(CDVInvokedUrlCommand*)command {
-  NSDictionary * items = nil; // TODO get native list
+  // fetch the native editor which holds the list of items
+  FirstViewController* fvc = [self viewController].tabBarController.viewControllers[0];
 
-  CDVPluginResult * pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsDictionary:items];
+  CDVPluginResult * pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsArray:fvc.items];
   [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
 }
 
@@ -19,9 +22,13 @@ static NSString *const kPluginOptionItem = @"item";
     [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
     return;
   }
-  // TODO add item to native list
 
-  CDVPluginResult * pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK];
+  // fetch the native editor which holds the list of items we want to add this item to
+  FirstViewController* fvc = [self viewController].tabBarController.viewControllers[0];
+  [fvc.items addObject:item];
+  [fvc.tableView reloadData];
+
+  CDVPluginResult* pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK];
   [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
 }
 
