@@ -7,6 +7,7 @@
 //
 
 #import "FirstViewController.h"
+#import "CordovaListEditorViewController.h"
 
 @interface FirstViewController ()
 
@@ -52,6 +53,7 @@
   CGFloat tabBarHeight = self.tabBarController.tabBar.frame.size.height;
   CGRect frame = CGRectMake(0, 100, self.view.bounds.size.width, self.view.bounds.size.height-100-tabBarHeight);
   self.tableView = [[UITableView alloc] initWithFrame:frame style:UITableViewStylePlain];
+  self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
   self.tableView.delegate = self;
   self.tableView.dataSource = self;
   [self.view addSubview:self.tableView];
@@ -62,6 +64,10 @@
     [_items addObject:_textField.text];
     _textField.text = @"";
     [_tableView reloadData];
+
+    // fetch the web editor which we need to send an event to JS
+    CordovaListEditorViewController* cvc = self.tabBarController.viewControllers[1];
+    [cvc notifyWebview];
   }
 }
 

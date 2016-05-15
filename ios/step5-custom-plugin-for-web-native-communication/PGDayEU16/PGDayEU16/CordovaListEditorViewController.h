@@ -11,6 +11,7 @@
 
 @interface CordovaListEditorViewController : CDVViewController
 
+- (void)notifyWebview;
 
 @end
 

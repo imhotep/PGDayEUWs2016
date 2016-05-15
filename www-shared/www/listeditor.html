@@ -13,14 +13,24 @@
           </script>
           </head>
   <body>
-    <h3>List editor</h3>
-    <button onclick="addToList()">add to list</button>
-    <button onclick="retrieveList()">retrieve list</button>
+    <input id="inputField" type="text" placeholder="Add an item.." autocomplete="off" autocorrect="off" />
+    <button onclick="addToList()">Add</button>
+    <br/>
+    <br/>
+    <table id="results"></table>
+
     <script>
       function retrieveList() {
         PGDayEU16Plugin.retrieveList(
               {},
-              function(list) {alert(JSON.stringify(list));},
+              function(list) {
+                var result = "";
+                for (var l in list) {
+                  var item = list[l];
+                  result += "<tr><td>" + list[l] + "</td></tr>";
+                }
+                document.querySelector("#results").innerHTML = result;
+              },
               function(msg) {alert(msg);}
         );
       }
@@ -28,12 +38,17 @@
       function addToList() {
         PGDayEU16Plugin.addToList(
               {
-                item: 'Added at ' + new Date().getTime()
+                item: inputField.value
               },
-              function() {alert('added');},
+              function() {
+                inputField.value = "";
+                retrieveList();
+              },
               function(msg) {alert(msg);}
         );
       }
+
+      document.addEventListener('deviceready', retrieveList, false);
     </script>
 
     <script type="text/javascript" src="cordova.js"></script>
