@@ -388,4 +388,5 @@
   ```
 
 16. add `MainActivity.java`
-17. Copy `www` folder from phonegap-start repository to your `assets/www`
+17. Copy www/ folder from root of repository to src/main/assets/www
+18. To install plugins at this time you'll have to do so manually. Easiest way is to create a cordova android project and copy files manually from there (this will change in the future). We will need: cordova-plugin-device, cordova-plugin-console and our very own plugin for PGDay2016
