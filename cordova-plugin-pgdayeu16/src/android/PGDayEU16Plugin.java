@@ -1,4 +1,4 @@
-package ncom.phonegapday;
+package com.phonegapday.componentcase;
 
 import org.apache.cordova.*;
 import org.json.JSONArray;
@@ -14,7 +14,7 @@ public class PGDayEU16Plugin extends CordovaPlugin {
   public boolean execute(String action, CordovaArgs args, CallbackContext callbackContext) throws JSONException {
     try {
       if (ACTION_RETRIEVE_LIST.equals(action)) {
-        JSONArray items = new JSONArray();
+        JSONArray items = new JSONArray(((MainActivity)cordova.getActivity()).getBookmarks());
         // TODO get from native list
 
         callbackContext.success(items);
@@ -25,7 +25,8 @@ public class PGDayEU16Plugin extends CordovaPlugin {
         if (!options.has("item"))  {
           callbackContext.error("item is required");
         } else {
-          // TODO add to native list
+
+            ((MainActivity)cordova.getActivity()).addItem(options.getString("item"));
           callbackContext.success();
           return true;
         }
