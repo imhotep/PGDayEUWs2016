@@ -21,6 +21,11 @@
   // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (void)notifyWebview {
+  // calling a specific method is a bit too tightly coupled but it serves our purpose of showing how to do native-web comms
+  [self.webViewEngine evaluateJavaScript:@"retrieveList()" completionHandler:nil];
+}
+
 - (void)viewWillAppear:(BOOL)animated
 {
   CGRect viewBounds = self.view.bounds;

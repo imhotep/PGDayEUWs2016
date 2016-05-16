@@ -8,3 +8,4 @@ Work your way through the steps or jump to one directly. Download the source in 
 3. [Embedding the Cordova WebView](step3-embedding-the-cordova-webview)
 4. [Tweaking the WebView](step4-tweaking-the-webview)
 5. [Custom plugin for web-native communication](step5-custom-plugin-for-web-native-communication)
+6. [Adding a Webview loading indicator](step6-adding-a-webview-loading-indicator)
