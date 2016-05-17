@@ -1,1 +1,0 @@
-../../../Cordova/CordovaLib/Classes/Private/Plugins/CDVLocalStorage/CDVLocalStorage.h

@@ -1,5 +1,0 @@
-GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Cordova" "${PODS_ROOT}/Headers/Public/cordova-plugin-console" "${PODS_ROOT}/Headers/Public/cordova-plugin-device" "${PODS_ROOT}/Headers/Public/phonegap-ios-template"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/Cordova" -isystem "${PODS_ROOT}/Headers/Public/cordova-plugin-console" -isystem "${PODS_ROOT}/Headers/Public/cordova-plugin-device" -isystem "${PODS_ROOT}/Headers/Public/phonegap-ios-template"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"Cordova" -l"cordova-plugin-console" -l"cordova-plugin-device" -framework "AVFoundation" -framework "AssetsLibrary" -framework "CoreLocation" -framework "MobileCoreServices"
-PODS_ROOT = ${SRCROOT}/Pods

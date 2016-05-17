@@ -1,1 +1,0 @@
-../../../cordova-plugin-console/src/ios/CDVLogger.h

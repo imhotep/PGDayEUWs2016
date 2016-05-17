@@ -1,1 +1,0 @@
-../../../Cordova/CordovaLib/Classes/Public/CDVURLProtocol.h
