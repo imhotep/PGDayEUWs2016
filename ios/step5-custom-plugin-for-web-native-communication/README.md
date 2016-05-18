@@ -148,8 +148,8 @@ __FINISH__
 
 You made it - When you now run the app you should have 3 tabs and a working list editor which syncs between web and native!
 
-![ScreenShot](editor-native.png)
+![ScreenShot](editor-nativeview.png)
 
-![ScreenShot](editor-web.png)
+![ScreenShot](editor-webview.png)
 
 If you want to add some sugar and learn more, [continue to step 6](../step6-adding-a-webview-loading-indicator) :)

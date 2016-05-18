@@ -68,4 +68,4 @@ We can hide this warm-up by adding a loading indicator.
 }
 ```
 
-![ScreenShot](spinner.png)
+![ScreenShot](spinning.png)
