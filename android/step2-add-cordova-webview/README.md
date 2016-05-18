@@ -1,4 +1,5 @@
 1. open `res/layout/content_main.xml` and replace the TextView with the following
+  
   ```XML
     <org.apache.cordova.engine.SystemWebView
         android:id="@+id/WebViewComponent"
@@ -7,6 +8,7 @@
     </org.apache.cordova.engine.SystemWebView>
   ``` 
 2. Add the following attributes to `MainActivity.java`. Make sure you fix the imports.
+  
   ```Java
     private String TAG = "ComponentWrapper";
     private SystemWebView webView;
