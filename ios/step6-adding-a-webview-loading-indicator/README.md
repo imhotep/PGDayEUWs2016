@@ -67,3 +67,5 @@ We can hide this warm-up by adding a loading indicator.
   [self.spinnerView stopAnimating];
 }
 ```
+
+![ScreenShot](spinning.png)
