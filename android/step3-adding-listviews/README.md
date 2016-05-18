@@ -1,8 +1,10 @@
 1. Add the following line to your `res/values/strings.xml`
+  
   ```XML
   <string name="add_bookmark">Add Bookmark</string>
   ```  
 1. Right click on `res/layout` and select `New` -> `XML` -> `Layout XML File`. Make sure it looks like this
+  
   ```XML
   <?xml version="1.0" encoding="utf-8"?>
   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -28,14 +30,16 @@
   </LinearLayout>
   ```
 1. Add the following attributes to your `MainActivity.java`
+  
   ```Java
-    // need this for page navigation
-    private String[] urls = new String[2];
-    private ListView listView;
-    private LinearLayout bookmarkLayout;
-    private ArrayList<String> bookmarks = new ArrayList<String>();
+  // need this for page navigation
+  private String[] urls = new String[2];
+  private ListView listView;
+  private LinearLayout bookmarkLayout;
+  private ArrayList<String> bookmarks = new ArrayList<String>();
   ```
 2. Set up the native ListView by adding the following lines to your `onCreate` method. Fix imports
+  
   ```Java
   // Set up the bookmark view
   bookmarks.add("http://google.com"); // dummy bookmark
@@ -67,6 +71,7 @@
   }
   ```
 3. Add the following methods
+  
   ```Java
   protected ArrayList<String> getBookmarks() {
       return bookmarks;
@@ -83,12 +88,14 @@
   <include layout="@layout/bookmark_main"/>
   ```
 4. Add these lines at the bottom of your `onCreate` method 
+  
   ```Java
   urls[0] = parser.getLaunchUrl();
   urls[1] = urls[0].replace("index.html", "listeditor.html");
   webView.loadUrl(urls[0]);
   ```
 5. Make sure your `onNavigationItemSelected` looks like this
+  
   ```Java
   public boolean onNavigationItemSelected(MenuItem item) {
       // Handle navigation view item clicks here.
@@ -113,6 +120,7 @@
   }
   ```
 6. Make sure to add this attribute to your `<activity>` tag in your `AndroidManifest.xml`
+  
   ```
   android:windowSoftInputMode="adjustPan"
   ```
