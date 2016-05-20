@@ -2,6 +2,7 @@ Cordova iOS - step 2
 ====================
 Using CocoaPods to add Cordova
 
+- Close Xcode
 - [Install CocoaPods](https://guides.cocoapods.org/using/getting-started.html) if you haven't already: `sudo gem install cocoapods`
 - Open a Terminal window and `cd` to the root of your iOS project (the folder where your `*.xcodeproj` file lives)
 - Type `pod init` to create a fresh 'Podfile'
