@@ -3,7 +3,7 @@
   ```XML
   <string name="add_bookmark">Add Bookmark</string>
   ```  
-1. Right click on `res/layout` and select `New` -> `XML` -> `Layout XML File`. Make sure it looks like this
+1. Right click on `res/layout` and select `New` -> `XML` -> `Layout XML File`. Name it `bookmark_main`. Make sure it looks like this
   
   ```XML
   <?xml version="1.0" encoding="utf-8"?>
