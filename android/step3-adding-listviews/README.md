@@ -80,8 +80,10 @@
   protected void addItem(String item) {
       if(item != null) {
           bookmarks.add(item);
+          ((BaseAdapter)listView.getAdapter()).notifyDataSetChanged();
       }
   }
+
   ```
 3. Add this line to your `res/xml/content_main.xml`
   
