@@ -84,6 +84,7 @@
   }
   ```
 3. Add this line to your `res/xml/content_main.xml`
+  
   ```XML
   <include layout="@layout/bookmark_main"/>
   ```
