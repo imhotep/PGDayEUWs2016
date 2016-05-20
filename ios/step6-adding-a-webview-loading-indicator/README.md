@@ -13,7 +13,7 @@ In an embedded scenario however the webview is likely not the first view your ap
 so upon loading a webview your app needs a little time to get ready. Especially on Android btw.
 And it gets worse if you load large JS libs like AngularJS.
 
-To simulate a heavy webview JS payload we can add a simple function like this:
+To simulate a heavy webview JS payload we can add a simple function like this to `listeditor.html`:
 
 ```js
 // artificial delay to show why a native loading indicator may make sense
@@ -68,4 +68,8 @@ We can hide this warm-up by adding a loading indicator.
 }
 ```
 
+Run your app again and upon loading the second tab this awesome spinner is shown:
+
 ![ScreenShot](spinning.png)
+
+__you may want to remove that heavy js function from your html file at this moment :)__

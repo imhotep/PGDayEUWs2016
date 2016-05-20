@@ -13,6 +13,8 @@ Embedding the Cordova WebView
 - Copy the contents of the `resources` folder of step 3 by opening Xcode and go to `Pods` > `phonegap-ios-template` > `Resources`
 - Right-click the `www` folder and 'Open in Finder'
 - Now copy the files, replacing anything already there. 
+- Now browse to the `cordova-plugin-pgdayeu16` folder and copy all files inside the `www` folder.
+- Paste that to your project's `www` folder as well.
 
 ## Check the result
 Run the app, select the second tab, and press 'Device' - you should now see this:
