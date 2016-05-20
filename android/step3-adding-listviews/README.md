@@ -44,7 +44,7 @@
   // Set up the bookmark view
   bookmarks.add("http://google.com"); // dummy bookmark
   bookmarkLayout = (LinearLayout) findViewById(R.id.bookmarkLayout);
-  final ListView listView = (ListView) findViewById(R.id.bookmarkView);
+  listView = (ListView) findViewById(R.id.bookmarkView);
   if(listView != null) {
       listView.setAdapter(new ArrayAdapter<String>(this,
               android.R.layout.simple_list_item_activated_1,
