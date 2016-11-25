@@ -85,7 +85,7 @@
   }
 
   ```
-3. Add this line to your `res/xml/content_main.xml`
+3. Add this line to your `res/layout/content_main.xml`
   
   ```XML
   <include layout="@layout/bookmark_main"/>
