@@ -1,4 +1,4 @@
-1. Create a new android project, set name to "ComponentCase", domain to "com.phonegapday". Click next.
+1. Create a new android project, set Application name to "ComponentCase", Company Domain to "phonegapday.com" and edit Package name to be "com.phonegapday". Click next.
 ![step1](../img/step1.png)
 2. Check "Phone and Tablet" and set Minimum SDK to API 21: Android 5.0 (Lollipop)
 ![step1](../img/step2.png)
